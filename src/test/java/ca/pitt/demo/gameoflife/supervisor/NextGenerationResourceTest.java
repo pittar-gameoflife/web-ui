@@ -7,7 +7,6 @@ import static org.hamcrest.CoreMatchers.is;
 import javax.enterprise.inject.Any;
 import javax.inject.Inject;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
