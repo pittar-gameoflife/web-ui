@@ -1,4 +1,4 @@
-# Game of Life - User Interface
+# Web UI Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework!
 
