@@ -13,7 +13,7 @@ import org.reactivestreams.Publisher;
 import ca.pitt.demo.gameoflife.ui.model.World;
 
 
-@Path("/grid")
+@Path("/")
 public class WorldStreamResource {
 
     @Inject
