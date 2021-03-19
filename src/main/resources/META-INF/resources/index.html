@@ -127,7 +127,7 @@ $(function(){
 });
 </script>
 <script>
-    var source = new EventSource("/grid/stream");
+    var source = new EventSource("/stream");
     source.onmessage = function (event) {
         grid = JSON.parse(event.data);
         console.log("Got new grid:");
