@@ -20,3 +20,18 @@ You can run your application in dev mode that enables live coding using:
 ```shell script
 mvn compile quarkus:dev
 ```
+
+```
+"version": "0.2.0",
+  "configurations": [
+    {
+        "type": "netcoredbg",
+        "request": "launch",
+        "program": "/projects/dotnet-app/PoliticalFinanceReturn/PFR.Web.UI/bin/Debug/netcoreapp3.1/PFR.Web.UI.dll",
+        "args": [],
+        "name": ".NET Core Launch (console)",
+        "stopAtEntry": false,
+        "console": "internalConsole"
+    }
+    ]
+```
